@@ -78,7 +78,7 @@ portfolioForm.addEventListener("submit", function (e) {
 
 function editExp(id) {
   selected = id;
-  portfolioBtn.innerHTML = "Edit skill";
+  portfolioBtn.innerHTML = "edit skill";
   let form = new FormData();
   form.append("file", portfolioImage.files[0]);
   request.put(`portfolios/${id}`).then((res) => {

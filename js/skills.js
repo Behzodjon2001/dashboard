@@ -1,4 +1,4 @@
-const skillsRow = document.querySelector("#skills-row");
+const skillsRow = document.getElementById("skills-row");
 const skills = document.getElementById("skills");
 const skillsPercent = document.getElementById("skillsPercent");
 const skillsForm = document.getElementById("skillsForm");
