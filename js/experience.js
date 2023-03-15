@@ -1,4 +1,4 @@
-const experienceRow = document.querySelector("#experience-row");
+const experienceRow = document.getElementById("experience-row");
 const experience = document.getElementById("experience");
 const companyName = document.getElementById("company_name");
 const description = document.getElementById("description");
